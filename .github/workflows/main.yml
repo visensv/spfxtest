@@ -42,3 +42,7 @@ jobs:
         run: |
           gulp bundle --ship
           gulp package-solution --ship   
+      - uses: actions/upload-artifact@master
+        with:
+          name: webpack artifacts
+          path: public/
