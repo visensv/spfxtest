@@ -12,8 +12,8 @@ export default class HelloWorld extends React.Component<IHelloWorldProps, {}> {
             <div className={styles.column}>
               <span className={styles.title}>Welcome to SharePoint!</span>
               <p className={styles.subTitle}>
-                Customize SharePoint experiences using Web Parts. This is the
-                test.
+                Customize SharePoint experiences using Web Parts. Change the
+                message.
               </p>
               <p className={styles.description}>
                 {escape(this.props.description)}
